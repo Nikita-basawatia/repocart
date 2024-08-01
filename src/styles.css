@@ -43,7 +43,7 @@
 .ProductButton {
   margin-top: 20px;
   background-color: #007bff;
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
   padding: 10px;
   border-radius: 5px;
