@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Productdiv {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border: #0056b3;
+  font-size: 8px;
+}
+
+.ProductImage {
+  width: 80px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.ProductDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 10px;
+}
+
+.ProductItem {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 250px;
+}
+
+.ProductButton {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ProductButton:hover {
+  background-color: #0056b3;
+}
+
+.ShopContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.OrderButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.OrderButton {
+  width: 200px;
+  padding: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.OrderButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
